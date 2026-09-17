@@ -1,30 +1,15 @@
 # The phenomenon
 
-<!-- This is the SD5913 assignment 2 template. Everything in this file is yours to
-replace, and the check counts words: comments like this one are not words, so
-delete each one as you write. Start with the heading: name the phenomenon.
-
-Then, in this order, at least 150 words in total.
-
-New to folders, paths, or the files here whose names start with a dot? Read
-https://github.com/sd5913/pfad/blob/2026/reference/files.md first. Ten minutes. -->
-
-![what the picture is](out/plot.png)
+![what the picture is](daylight_band.png)
 
 ## The phenomenon
-
-<!-- What goes up and down, and why you looked at it. -->
+Daylight hours in Hong Kong rise and fall across the year, controlled by the Earth’s axial tilt and orbital movement around the Sun. The longest daylight appears near the summer solstice and the shortest near the winter solstice. I chose this dataset to visualise the subtle daily change of daylight over a full calendar year, turning numerical time records into a continuous visual rhythm.
 
 ## The source
-
-<!-- A link to the page or endpoint the file came from, and one line on what is in
-the file: how many rows, what a row means, what the units are. -->
+Data is retrieved from Hong Kong Observatory’s sunrise and sunset API. The CSV file contains 365 rows; each row represents one calendar day in 2024. Columns include date, RISE for sunrise time and SET for sunset time, recorded in local time.
 
 ## What the picture shows
-
-<!-- Two or three sentences. Including what it hides: every transformation throws
-something away, and naming what yours threw away is the easiest way to sound like
-you know what you did. -->
+This image draws a vertical line for each day, where line height equals the length of daylight. The curve of line heights reveals the annual seasonal cycle of daylight. The visual hides exact timestamps of sunrise and sunset, and it discards weather conditions which do not affect astronomical sunrise and sunset.
 
 ## Run it
 
